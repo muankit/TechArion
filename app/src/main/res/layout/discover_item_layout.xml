@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/discover_root_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner"
+    android:layout_margin="10dp">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/discover_usr_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:roundPercent="0.4" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/discover_user_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="rupi kaur"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/discover_usr_img"
+        app:layout_constraintEnd_toStartOf="@id/discover_bookmark"
+        app:layout_constraintStart_toEndOf="@id/discover_usr_img"
+        app:layout_constraintTop_toTopOf="@id/discover_usr_img" />
+
+    <ImageView
+        android:id="@+id/discover_bookmark"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/bookmark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/discover_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="40dp"
+        android:paddingTop="80dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="80dp"
+        android:text="fdsfdh hfkjd d flkfd f ddjf  ljf d f d  fldjf ldfj fj dflj jfd j fjd js jdf jdsfj sdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/discover_usr_img" />
+
+    <ImageView
+        android:id="@+id/discover_like_img1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/discover_like_img2"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/discover_text" />
+
+    <ImageView
+        android:id="@+id/discover_like_img2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="-7dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@id/discover_like_img1"
+        app:layout_constraintStart_toEndOf="@id/discover_like_img1"
+        app:layout_constraintTop_toTopOf="@id/discover_like_img1" />
+
+    <ImageView
+        android:id="@+id/discover_like_img3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="-7dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@id/discover_like_img2"
+        app:layout_constraintStart_toEndOf="@id/discover_like_img2"
+        app:layout_constraintTop_toTopOf="@id/discover_like_img2" />
+
+    <TextView
+        android:id="@+id/discover_like_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/discover_like_img3"
+        app:layout_constraintStart_toEndOf="@id/discover_like_img3"
+        app:layout_constraintTop_toTopOf="@id/discover_like_img3" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_dashboard_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@id/discover_comment_txt"
+        app:layout_constraintEnd_toStartOf="@id/discover_comment_txt"
+        app:layout_constraintTop_toTopOf="@+id/discover_comment_txt" />
+
+    <TextView
+        android:id="@+id/discover_comment_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="ffd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TechArion</string>
+    <string name="title_home">Home</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="dummy_text">no one is qualified to decide your worth you wake up and live your life every day yours is the only opinion of you that matters\n\n - rupi kaur</string>
+    <string name="dummy_text2">no one is qualified to decide your worth you is the only opinion of you that matters\n\n - rupi kaur</string>
+    <string name="dummy_text3">no one is qualified to decide your worth you wake up and live your life every day yours \n\n - rupi kaur</string>
+
+    <string name="dummy_text4">love,\nto me, is\n stumbling in the dark\n  trying to find\nthe right words\n  to describe the feeling\nI get when\nshe smiles while she sleeps\n\n-atticus</string>
+    <string name="description">Get meaning and translation od discription in hindi language with grammar, antonyms, synonyms and sentence usages more... </string>
+
+</resources>
